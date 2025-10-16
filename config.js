@@ -6,7 +6,8 @@ module.exports = {
     password: process.env.ADMIN_PASSWORD || '123456'
   },
   server: {
-    port: process.env.PORT || 3000,
+    port: process.env.PORT || 7860,
     jwtSecret: process.env.JWT_SECRET || 'nav-item-jwt-secret-2024-secure-key'
   }
+
 }; 
