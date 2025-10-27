@@ -1,9 +1,9 @@
 {
   "name": "nav-item-backend",
   "version": "1.0.0",
-  "author": "eooce",
+  "author": "sweet",
   "description": "nav-item-backend",
-  "repository": "https://github.com/eooce/nav-item",
+  "repository": "https://github.com/Amosgantian/nav-item",
   "license": "MIT",
   "main": "app.js",
   "scripts": {
@@ -25,3 +25,4 @@
     "node": ">=14"
   }
 }
+
