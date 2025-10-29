@@ -160,16 +160,16 @@ amosgantian/nav-item-backend
 ```
 或
 ```bash
-from amosgantian/nav-item-backend
+ghcr.io/amosgantian/nav-item:latest 
 ```
 
 ## serv00|ct8|Hostuno 一键安装脚本
 - 环境变量,放在脚本前，随脚本一起运行，英文空隔隔开
-- 后台管理用户名和密码默认分别为为`admin`和`123456`
+- 后台管理用户名和密码默认分别为为`amos`和`sweet`
   * `DOMAIN`为自定义站点域名
 
 ```bash
-bash <(curl -Ls [https://github.com/Amosgantian/nav-item/releases/download/nav/navinstall.sh])
+bash <(curl -Ls https://github.com/Amosgantian/nav-item/releases/download/nav/nav_install.sh)
 ```
 
 ## 🤝 贡献指南
@@ -183,6 +183,7 @@ bash <(curl -Ls [https://github.com/Amosgantian/nav-item/releases/download/nav/n
 ## 📄 许可证
 
 本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情
+
 
 
 
