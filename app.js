@@ -41,7 +41,9 @@ app.use('/api/ads', adRoutes);
 app.use('/api/friends', friendRoutes);
 app.use('/api/users', userRoutes);
 
-app.listen(PORT, '0.0.0.0',() => {
-  console.log(`server is running on ${PORT}`);
+app.set('trust proxy', 1);
+app.listen(process.env.PORT || 3000, '0.0.0.0',() => {
+  console.log(`server is running on port ${PORT}`);
 
 }); 
+
