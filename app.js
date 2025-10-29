@@ -42,9 +42,10 @@ app.use('/api/friends', friendRoutes);
 app.use('/api/users', userRoutes);
 
 // app.set('trust proxy', 1); 
-app.listen(PORT, '0.0.0.0',() => {
-  console.log(`server is running on port ${PORT}`);
+app.listen(PORT, () => {
+  console.log(`server is running on http://localhost:${PORT}`);
 
 }); 
+
 
 
