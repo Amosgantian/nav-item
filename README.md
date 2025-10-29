@@ -1,4 +1,4 @@
-# Nav-item - 个人导航站
+# Navigation-Project - 个人导航站
 
 ## 项目简介
 
@@ -156,11 +156,11 @@ services:
 ```
 ### 3: docker容器等使用docker image配合环境变量部署
 ```bash
-eooce/nav-item
+amosgantian/nav-item-backend
 ```
 或
 ```bash
-ghcr.io/eooce/nav-item:latest
+from amosgantian/nav-item-backend
 ```
 
 ## serv00|ct8|Hostuno 一键安装脚本
@@ -169,7 +169,7 @@ ghcr.io/eooce/nav-item:latest
   * `DOMAIN`为自定义站点域名
 
 ```bash
-bash <(curl -Ls https://github.com/eooce/nav-item/releases/download/ct8-and-serv00/install.sh) 
+bash <(curl -Ls [https://github.com/Amosgantian/nav-item/releases/download/nav/navinstall.sh])
 ```
 
 ## 🤝 贡献指南
@@ -184,17 +184,6 @@ bash <(curl -Ls https://github.com/eooce/nav-item/releases/download/ct8-and-serv
 
 本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情
 
-## 👨‍💻 作者
-
-**eooce** - [GitHub](https://github.com/eooce)
-
-## 🙏 致谢
-
-感谢所有为这个项目做出贡献的开发者！
-
----
-
-⭐ 如果这个项目对你有帮助，请给它一个星标！ 
 
 
 
