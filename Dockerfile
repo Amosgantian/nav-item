@@ -32,6 +32,7 @@ COPY --from=frontend-builder /app/dist ./web/dist
 
 ENV NODE_ENV=production
 
-EXPOSE 3000/tcp
+EXPOSE 3000
+
 
 CMD ["npm", "start"] 
