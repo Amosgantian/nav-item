@@ -141,8 +141,8 @@ cd .. && npm start
 version: '3'
 
 services:
-  navigation-project:
-    image: amosgantian/nav-item
+  nav-item-backend:
+    image: amosgantian/nav-item-backend
     container_name: navigation
     ports:
       - "3000:3000"
@@ -183,6 +183,7 @@ bash <(curl -Ls https://github.com/Amosgantian/nav-item/releases/download/nav/na
 ## 📄 许可证
 
 本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情
+
 
 
 
