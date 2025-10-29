@@ -84,8 +84,8 @@ nav-item/
 
 ### 环境变量
 - `PORT`: 服务器端口号（默认: 3000）
-- `ADMIN_USERNAME`: 管理员用户名（默认: admin）
-- `ADMIN_PASSWORD`: 管理员密码（默认: 123456）
+- `ADMIN_USERNAME`: 管理员用户名（默认: amos）
+- `ADMIN_PASSWORD`: 管理员密码（默认: sweet）
 
 ### 数据库配置
 系统使用 SQLite 数据库，数据库文件会自动创建在项目/database/目录下，使用docker部署请挂载/app/database目录实现数据持久化
@@ -97,7 +97,7 @@ nav-item/
 
 #### 1. 克隆项目
 ```bash
-git clone https://github.com/eooce/nav-Item.git
+git clone https://github.com/Amosgantian/nav-item.git
 cd nav-item
 ```
 
@@ -120,7 +120,7 @@ cd .. && npm start
 #### 6. 访问应用
 - 前端地址：http://localhost:3000
 - 后台管理：http://localhost:3000/admin
-- 默认管理员账号：admin / 123456
+- 默认管理员账号：amos / sweet
 
 ### Docker 部署
 
@@ -132,8 +132,8 @@ cd .. && npm start
      -v $(pwd)/database:/app/database \
      -v $(pwd)/uploads:/app/uploads \
      -e NODE_ENV=production \
-     -e ADMIN_USERNAME=admin \
-     -e ADMIN_PASSWORD=123456 \
+     -e ADMIN_USERNAME=amos \
+     -e ADMIN_PASSWORD=sweet \
      eooce/nav-item
    ```
 ### 2: docker-compose.yaml 部署
@@ -142,14 +142,14 @@ version: '3'
 
 services:
   nav-item:
-    image: eooce/nav-item
-    container_name: nav-item
+    image: amosgantian/nav-item
+    container_name: navigation-project
     ports:
       - "3000:3000"
     environment:
       - PORT=3000             # 监听端口
-      - ADMIN_USERNAME=admin  # 后台用户名
-      - ADMIN_PASSWORD=123456 # 后台密码
+      - ADMIN_USERNAME=amos  # 后台用户名
+      - ADMIN_PASSWORD=sweet # 后台密码
     volumes:
       - ./database:/app/database  # 持久化数据库
     restart: unless-stopped
@@ -183,6 +183,7 @@ bash <(curl -Ls https://github.com/Amosgantian/nav-item/releases/download/nav/na
 ## 📄 许可证
 
 本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情
+
 
 
 
