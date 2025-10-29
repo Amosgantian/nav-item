@@ -59,7 +59,7 @@
       </div>
       <div class="admin-content">
         <div v-if="page==='welcome'" class="welcome-page">
-          <h2 class="welcome-title">欢迎您进入 Nav-Item 后台管理系统</h2>
+          <h2 class="welcome-title">欢迎您进入 Navigation Project 后台管理系统</h2>
           <div class="welcome-cards">
             <div class="welcome-card">
               <div class="welcome-icon time-icon">
@@ -84,7 +84,7 @@
         <UserManage v-if="page==='user'" />
       </div>
       <footer class="admin-footer">
-        <p class="admin-copyright">Copyright © 2025 Nav-Item | <a href="https://github.com/eooce/Nav-Item" target="_blank" class="footer-link">Powered by eooce</a></p>
+        <p class="admin-copyright">Copyright © 2025 Navigation-Project | <a href="https://github.com/Amosgantian/nav-item" target="_blank" class="footer-link">Powered by sweet </a></p>
       </footer>
     </main>
   </div>
@@ -615,4 +615,5 @@ function closeSider() {
 .menu-toggle {
   display: none;
 }
+
 </style> 
