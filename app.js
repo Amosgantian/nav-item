@@ -41,6 +41,7 @@ app.use('/api/ads', adRoutes);
 app.use('/api/friends', friendRoutes);
 app.use('/api/users', userRoutes);
 
-app.listen(PORT, () => {
-  console.log(`server is running at http://localhost:${PORT}`);
+app.listen(PORT, '0.0.0.0',() => {
+  console.log(`server is running on ${PORT}`);
+
 }); 
