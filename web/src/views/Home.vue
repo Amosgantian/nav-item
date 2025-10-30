@@ -341,7 +341,7 @@ function handleLogoError(event) {
 
 .home-container {
   min-height: 95vh;
-  background-image: url('https://main.ssss.nyc.mn/background.webp');
+  background-image: url('https://www.serv00.com/wp-content/uploads/2025/05/background.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -738,3 +738,4 @@ function handleLogoError(event) {
 }
 
 </style> 
+
