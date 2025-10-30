@@ -341,7 +341,7 @@ function handleLogoError(event) {
 
 .home-container {
   min-height: 95vh;
-  background-image: url('https://aomega-yahai.serv00.net/wp-content/uploads/2025/10/background.jpg');
+  background-image: url('https://aomega-yahai.serv00.net/wp-content/uploads/2025/10/background.jpg', url('/background.webp'));
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -738,5 +738,6 @@ function handleLogoError(event) {
 }
 
 </style> 
+
 
 
