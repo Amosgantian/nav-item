@@ -81,7 +81,7 @@ db.serialize(() => {
         {"id":8,"name":"Dev","order":8}
       ];
       const stmt = db.prepare('INSERT INTO menus (name, "order") VALUES (?, ?)');
-      defaultMenus.forEach(([name, order]) => stmt.run(name, order));
+      defaultMenus.forEach(menu => stmt.run(menu.name, menu.order));
       stmt.finalize(() => {
         // 确保菜单插入完成后再插入子菜单和卡片
         console.log('菜单插入完成，开始插入默认子菜单和卡片...');
@@ -347,7 +347,7 @@ db.serialize(() => {
         {"id":5,"title":"Amos博客","url":"https://blog.amos.ip-ddns.com/","logo":"https://blog.amos.ip-ddns.com/img/amoz_avatar.png"}
       ];
       const stmt = db.prepare('INSERT INTO friends (title, url, logo) VALUES (?, ?, ?)');
-      defaultFriends.forEach(([title, url, logo]) => stmt.run(title, url, logo));
+      defaultFriends.forEach(friend => stmt.run(friend.title, friend.url, friend.logo));
       stmt.finalize();
     }
   });
