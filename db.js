@@ -265,9 +265,12 @@ db.serialize(() => {
 
           {id: 133, menu: "Dev",title: "Music Online",url: "https://music.gdstudio.org/",logo_url: "https://music.gdstudio.org/images/history.png",desc: "Free Music",order: 0},
           {id: 134, menu: "Dev",title: "Eloquentjavascript",url: "https://eloquentjavascript.net/code/#5",logo_url: "https://eloquentjavascript.net/img/cover.jpg",desc: "Coding Exercises",order: 0},
-          {id: 135, menu: "Dev",title: "Note1 backend",url: "https://note1.solganpm.netlib.re/",logo_url: "",desc: "Domain_Code",order: 0},
+          {id: 135, menu: "Dev",title: "Note1 backend",url: "https://note1.yahaibio.qzz.io/",logo_url: "",desc: "Domain_Code",order: 0},
           {id: 136, menu: "Dev",title: "Note2 backend",url: "https://note2.sghmc.netlib.re/",logo_url: "",desc: "Nodes_ProxyIPs",order: 0},
-          {id: 137, menu: "Dev",title: "Music Online",url: "https://music.agtoutlook.netlib.re/",logo_url: "https://music.agtoutlook.netlib.re/app/favicon-32x32.png",desc: "Amos' Music","order":-1},
+          {id: 137, menu: "Dev",title: "Music Online",url: "https://music.agtian.de5.net/",logo_url: "https://music.agtian.de5.net/app/assets/android-icon-192x192-D_ka5daf.png",desc: "Amos' Music","order":-1},
+          {id: 138, menu: "Dev",title: "Music Online",url: "https://music.agtoutlook.netlib.re/",logo_url: "https://music.agtoutlook.netlib.re/app/favicon-32x32.png",desc: "Amos' Music","order":-1},
+          {id: 139, menu: "Dev",title: "Private Chat Room",url: "https://consultation.yahaibio.de5.net/",logo_url: "",desc: "Amos' Chat Room","order":-1},
+          
 
           // ==================== 子菜单卡片 ====================
           { id: 31, subMenu: "Proxy", title: "ChatGPT", url: "https://chat.openai.com", logo_url: "https://cdn.oaistatic.com/assets/favicon-eex17e9e.ico", desc: "OpenAI官方AI对话", order: 0 },
@@ -360,4 +363,5 @@ db.serialize(() => {
 });
 
 module.exports = db;
+
 
