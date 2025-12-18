@@ -263,6 +263,12 @@ db.serialize(() => {
           { id: 123, menu: "Container&VPS", title: "Wispbyte", url: "https://wispbyte.com/", logo_url: "https://wispbyte.com/assets/wispbyte_blue_nobg.webp", desc: "Romania free container", order: 0 },
           { id: 132, menu: "Dev", title: "Navigation Website", url: "https://nav.yahaibio.qzz.io/", logo_url: "", desc: "Deployed on Cloudflare", order: 0 },
 
+          {id: 133, menu: "Dev",title: "Music Online",url: "https://music.gdstudio.org/",logo_url: "https://music.gdstudio.org/images/history.png",desc: "Free Music",order: 0},
+          {id: 134, menu: "Dev",title: "Eloquentjavascript",url: "https://eloquentjavascript.net/code/#5",logo_url: "https://eloquentjavascript.net/img/cover.jpg",desc: "Coding Exercises",order: 0},
+          {id: 135, menu: "Dev",title: "Note1 backend",url: "https://note1.solganpm.netlib.re/",logo_url: "",desc: "Domain_Code",order: 0},
+          {id: 136, menu: "Dev",title: "Note2 backend",url: "https://note2.sghmc.netlib.re/",logo_url: "",desc: "Nodes_ProxyIPs",order: 0},
+          {id: 137, menu: "Dev",title: "Music Online",url: "https://music.agtoutlook.netlib.re/",logo_url: "https://music.agtoutlook.netlib.re/app/favicon-32x32.png",desc: "Amos' Music","order":-1},
+
           // ==================== 子菜单卡片 ====================
           { id: 31, subMenu: "Proxy", title: "ChatGPT", url: "https://chat.openai.com", logo_url: "https://cdn.oaistatic.com/assets/favicon-eex17e9e.ico", desc: "OpenAI官方AI对话", order: 0 },
           { id: 32, subMenu: "Proxy", title: "Deepseek", url: "https://www.deepseek.com", logo_url: "https://cdn.deepseek.com/chat/icon.png", desc: "Deepseek AI搜索", order: 0 },
@@ -354,3 +360,4 @@ db.serialize(() => {
 });
 
 module.exports = db;
+
